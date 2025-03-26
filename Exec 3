@@ -1,0 +1,4 @@
+salario = float(input('Informe seu salário: '))
+salary = salario / 1518
+salary_limitado = round(salary,2)
+print("\n Você recebe o equivalente a", salary_limitado, "salários minimos")
