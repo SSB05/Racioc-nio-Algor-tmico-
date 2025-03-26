@@ -1,0 +1,4 @@
+distance = float(input("Distância total percorrida em quilômetros: "))
+comb = float(input("Informe a quantidade em litros de combustível utilizado no trajeto:  "))
+economia = distance/comb
+print("O consumo médio do autmóvel é de: ", economia, "km\l")
