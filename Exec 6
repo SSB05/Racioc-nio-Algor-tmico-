@@ -1,0 +1,12 @@
+h = float(input("Informe a altura do cilindro: "))
+r = float(input("\n Infrome o raio do cilindro: "))
+total_lt = int
+vlr_lt = 50
+metros_cubicos=15
+total_tudo = 0
+volume = 3.14 * (r*r) * h
+total_lt = volume / metros_cubicos
+total_tudo = total_lt * vlr_lt
+print("O volume em m³ é: ", volume, "m³")
+print("Foram necessários: ", total_lt, "latas")
+print("O valor gasto irá ser: ", total_tudo)
