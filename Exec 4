@@ -1,0 +1,13 @@
+produto = float(input("\n Informe o valor de um produto: "))
+parcela = float(input("\n Quantas parcelas (1/2/3): "))
+valor_final = float
+if parcela == 1:
+    valor_final = produto * 0.95
+    print("\n O valor de 1x parcela com 5% de desconto é: ", valor_final)
+elif parcela == 2:
+    valor_final = produto / 2
+    print("\n O valor de cada parcela é: ", valor_final)
+elif parcela ==3:
+    valor_final = produto * 1.05
+    valor_final = valor_final/3
+    print("\n O valor de 3x parcelas com 5% de juros é de: ", valor_final)
